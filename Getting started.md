@@ -33,3 +33,11 @@
 	```
 	catkin_make
 	```
+## Building and Running python scripts
+
+- For python, there is no need to run catkin_make
+- Just make the script executable using the command
+	```
+	chmod u+x sample_script.py
+	```
+- Advisable to place all python scripts in a scripts folder
