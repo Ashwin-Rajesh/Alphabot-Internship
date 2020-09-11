@@ -33,6 +33,7 @@
 	```
 	catkin_make
 	```
+---
 ## Building and Running python scripts
 
 - For python, there is no need to run catkin_make
@@ -45,3 +46,6 @@
 	```
 	rosrun sample_pkg sample_script.py
 	```
+- The python interpreter can also be used from the command line to run the script
+---
+## Building and Running C++ scripts
