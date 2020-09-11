@@ -1,4 +1,5 @@
 # Getting Started
+	THis file does not involve any code, but rather is about the catkin build system and 
 ---
 
 ## Creating a workspace
