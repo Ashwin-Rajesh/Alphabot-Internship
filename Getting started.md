@@ -1,7 +1,7 @@
 # Getting Started
-This file does not involve any code, but rather is about the catkin build system and 
----
+This file documents the general procedure for starting a ROS project
 
+---
 ## Creating a workspace
 
 - Create a diretory that will serve as our workspace (here, ~/sample_dir/sample_ws), with an src folder inside
@@ -43,7 +43,7 @@ This file does not involve any code, but rather is about the catkin build system
 	chmod u+x sample_script.py
 	```
 - Advisable to place all python scripts in a scripts folder
-- Use rosrun to run the script (even if script is inside a folder, only script name is required)
+- Use rosrun to run the script (even if script is inside a folder, only script name is required
 	```
 	rosrun sample_pkg sample_script.py
 	```
