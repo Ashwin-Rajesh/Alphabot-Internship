@@ -25,7 +25,7 @@
   	roscd
   	cd ../src
   	```
-- Run the "catkin_create_pkg" command
+- Run the "catkin_create_pkg" command (Here name of package is *sample_pkg*)
   	```
 	catkin_create_pkg sample_pkg sample_dependencies roscpp rospy std_msgs
 	```
@@ -41,3 +41,7 @@
 	chmod u+x sample_script.py
 	```
 - Advisable to place all python scripts in a scripts folder
+- Use rosrun to run the script (even if script is inside a folder, only script name is required)
+	```
+	rosrun sample_pkg sample_script.py
+	```
