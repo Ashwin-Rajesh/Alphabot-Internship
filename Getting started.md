@@ -27,7 +27,7 @@
   	```
 - Run the "catkin_create_pkg" command
   	```
-	catkin_create_pkg sample_pkg sample_dependencies roscpp rospy rosmsgs
+	catkin_create_pkg sample_pkg sample_dependencies roscpp rospy std_msgs
 	```
 - Run catkin_make in the workspace 
 	```
