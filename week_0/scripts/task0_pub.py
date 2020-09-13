@@ -26,4 +26,4 @@ if __name__ == "__main__":
     try:
         create_pub()
     except rospy.ROSInterruptException:
-        cv2.destroyAllWindows() 
+        pass

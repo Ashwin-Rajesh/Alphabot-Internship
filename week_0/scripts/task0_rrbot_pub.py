@@ -20,8 +20,8 @@ def create_pub():
         time = rospy.get_time()
 
         # pos of joints is varied with time, just for fun
-        joint1_pos = (time*0.01)%2*np.pi + np.pi
-        joint2_pos = (time*0.1)%2*np.pi + np.pi
+        joint1_pos = (time*0.01)%2*np.pi - np.pi
+        joint2_pos = (time*0.1)%2*np.pi - np.pi
 
         msg1 = Float64(joint1_pos)
         msg2 = Float64(joint2_pos) 
@@ -35,4 +35,4 @@ if __name__ == "__main__":
     try:
         create_pub()
     except rospy.ROSInterruptException:
-        cv2.destroyAllWindows() 
+        pass

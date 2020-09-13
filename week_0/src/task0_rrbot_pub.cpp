@@ -23,8 +23,8 @@ int main(int argc, char **argv)
         
         double time = ros::Time::now().toSec();
         
-        msg1.data = std::fmod(0.01*time,(2*cpi))+cpi;
-        msg2.data = std::fmod(0.1*time,(2*cpi))+cpi;
+        msg1.data = std::fmod(0.01*time,(2*cpi))-cpi;
+        msg2.data = std::fmod(0.1*time,(2*cpi))-cpi;
 
         pub1.publish(msg1);
         pub2.publish(msg2);
