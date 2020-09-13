@@ -10,3 +10,5 @@
     - [Whycon markers](https://github.com/Ashwin-Rajesh/Alphabot-Internship/blob/master/Documents/Whycon%20Markers.md)
   - ### PID controllers
     - [PID controllers](https://github.com/Ashwin-Rajesh/Alphabot-Internship/blob/master/Documents/PID%20Controllers.md)
+    - [What are closed loop controllers?]()
+    - [What are PID controllers?]()
