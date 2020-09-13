@@ -8,4 +8,5 @@ and are really important in robotics.
   Closed loop controllers take feedback from the output of the system. They use the error of the actual output from the required output, to control whatever we want to
   control. This is in contrast to open loop controllers that give inputs to the system that does not depend on the actual output of that system. Open loop controllers
   do not have any idea of the actual output, so often they act in a pre-programmed way, and cannot respond to dynamic situations. This makes the more complicated closed loop controllers more preferred, unless its difficult to obtain feedback, since it requires additional sensors
-![](../Images/PID\ Controller/open_closed_controllers.png)
+
+![](Images/Documents/open_closed_controllers.png)
