@@ -4,12 +4,12 @@ to vary the output and/or the behavior of a system, according to our needs. This
 to moving an aircraft in a certain way, or moving the joint on a robotic arm to a certain position. As you can imagine, control systems are used everywhere in engineering,
 and are really important in robotics.
 
-### What are closed loop controllers?
+## What are closed loop controllers?
   Closed loop controllers take feedback from the output of the system. They use the error of the actual output from the required output, to control whatever we want to control. This is in contrast to open loop controllers that give inputs to the system that does not depend on the actual output of that system. Open loop controllers do not have any idea of the actual output, so often they act in a pre-programmed way, and cannot respond to dynamic situations. This makes the more complicated closed loop controllers more preferred, unless its difficult to obtain feedback, since it requires additional sensors
 
 ![](/Images/Documents/open_closed_controllers.png)
 
-### What are PID controllers?
+## What are PID controllers?
 To understand PID controllers, lets first look at **Proportional** control.
 
 Imagine you had to control the temperature of a water heater, and reach some temperature value. We control the voltage to a heating element to control the temperature. 
@@ -20,4 +20,4 @@ An improvement is to add an **integral** term. What this does is kind of give an
 
 Now we have seen **P**roportional, and **I**ntegral terms and how they can be used to make a controller. Now, what could we add next to improve out controller? We have seen that the integral term helps the controller remember its past, now what if we give it the ability to predict the future?! What value in calculus now helps us to predict where a function is going? Of course, its the **D**erivative! This is where the **PID** controller gets its name - **P**roportional, **I**ntegral, **D**erivative. The derivative term improves the speed of the system and its response to varying control inputs. However, it can cause oscillations if not tuned properly! Now, since we understand very simply how a PID controller works, and why we have these three terms, lets look at how to tune one for our application!
 
-### Tuning PID Controllers
+## Tuning PID Controllers
