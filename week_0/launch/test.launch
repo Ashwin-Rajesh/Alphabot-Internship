@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find rrbot_gazebo)/launch/rrbot_world.launch" />
+    <include file="$(find rrbot_control)/launch/rrbot_control.launch" />
+
+    <node pkg="week_0" type="task0_rrbot_pub" name="rrbot_publisher" required="true"/>
+</launch>
