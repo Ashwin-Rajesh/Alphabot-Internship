@@ -23,10 +23,10 @@
   ```<something text="hello" number="aa"> ... </something>```
 
 ---
-### Launchfile specifications
-#### ```<launch> ... </launch>```    
+# Launchfile specifications
+### ```<launch> ... </launch>```    
   - Needs to surround the whole launch file
-#### ```<node />``` tag   
+### ```<node />``` tag   
   - Launches a node
   - Attributes are : 
   - ```pkg```  - required   
@@ -45,12 +45,12 @@
   Quit whole launch, if this node fails, if set to true
   - ```launch-prefix```   
   Prefix this when invoking the node, we could use this for debugging, setting this as gdb for example
-#### ```<include />``` tag
+### ```<include />``` tag
   - Used to import some launchfile into current launchfile
   - Attributes are
   - ```file``` - required   
   The path to the launch file
-#### ```<env>``` tag
+### ```<env />``` tag
   - For setting environment variables
   - Arrtibutes are
   - ```name``` - required
