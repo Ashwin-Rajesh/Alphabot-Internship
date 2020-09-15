@@ -11,7 +11,7 @@
   - ### PID controllers
     - [PID controllers](Documents/PID%20Controllers.md)
     - [What are closed loop controllers?](Documents/PID%20Controller.md#what-are-closed-loop-controllers)
-    - [What are PID controllers?](Documents/PID%20Controller.md#what-are-pid-controllers)
+    - [What are PID controllers?](Documents/PID%20Controller.md#what-are-pid-controllers?)
     - [Tuning PID controllers](Documents/PID%20Controller.md#tuning-pid-controllers)
   - ### ROS Commands
     - [Commands](Documents/Commands.md)
