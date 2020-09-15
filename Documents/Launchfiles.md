@@ -4,8 +4,12 @@
 
 ---
 ### About launchfiles
+- Capabilities :
+  - Can launch other launch files
+  - Can run nodes
+  - Can make environment variables
+  - Can launch parameter servers
 - xml format
-- Can run nodes with renamed names, topics
 
 ---
 ### XML format
