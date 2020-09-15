@@ -10,6 +10,15 @@ Useful terminal commands and their usage
 ---
 ### roslaunch
 
+```roslaunch <package_name> <launch_file>```
+
 - Runs .launch files. **.launch** files can do various things, like launching nodes,
 - Automatically launches **ros master**
 - [Further documentation on launch files](Launchfiles.md)
+
+---
+### rosrun
+
+```rosrun <package_name> <executable>```
+
+- Simply runs executables. This could be executable files inside the package source folder or binaries that have been built by catkin
