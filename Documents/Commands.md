@@ -4,6 +4,8 @@ Useful terminal commands and their usage
 
 ### roscore
 
+```roscore```
+
 - Launches the "**ros master**", the server that is responsible for establishing communications between nodes, maintaining parameter servers, etc
 - The rosmaster **has to be** launched before starting any nodes
 
