@@ -59,3 +59,8 @@
   - Arrtibutes are
     - ```name``` - required
     - ```value``` - required
+### ```<remap />``` tag   
+  - For remapping topics
+  - Arrtibutes are
+    - ```from``` - required   
+    - ```to``` - required
