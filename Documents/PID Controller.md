@@ -31,4 +31,8 @@ Tuning is the process of selecting the best values for the gains of the integral
 We can always tweak the gains by a trial and error method, and check if our results are good enough. this requires a good understanding of how each term affects our particular model
 
 ### Using step response
-This is simular to the first method in that we have to vary the parameters ourselves, but finding how a system responds to a step input (abruptly giving the controller a new target) will give a good idea of how to improve the system. For example, we might be able to see some overshoot in ou
+This is simular to the first method in that we have to vary the parameters ourselves, but finding how a system responds to a step input (abruptly giving the controller a new target) will give a good idea of how to improve the system. 
+
+The following table can give a good idea of how to change the parameters to improve performance.
+
+![PID tuning](Images/pid_tuning.jpg)
